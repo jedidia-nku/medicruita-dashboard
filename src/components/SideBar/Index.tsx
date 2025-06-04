@@ -98,16 +98,16 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
 
             <ul className="flex flex-col gap-[24px] scroll-y-none">
               {/* <!-- Menu Item Calendar --> */}
-            <li className={`flex flex-row gap-4 items-center ${pathname === "/overview" ? "text-[#4640DE]" : "text-[#7C8493]"}`}>
+            <li className={`flex flex-row gap-4 items-center ${pathname === "/dashboard" ? "text-[#4640DE]" : "text-[#7C8493]"}`}>
               <div className={`${
-                pathname.includes("overview") 
+                pathname.includes("dashboard") 
                   ? "py-4 border-r-4 border-[#4640DE] text-[#0173B1]" 
                   : "py-4"
               }`}>
               </div>
               <NavLink
-                to="/overview"
-                className={`group relative flex items-center ${pathname === "/overview" ? "bg-[#CACEF3] text-[#4640DE]" : "text-[#7C8493]"} gap-2.5 py-2 px-4 font-medium font-inter text-base duration-300 ease-in-out w-full`}>
+                to="/dashboard"
+                className={`group relative flex items-center ${pathname === "/dashboard" ? "bg-[#CACEF3] text-[#4640DE]" : "text-[#7C8493]"} gap-2.5 py-2 px-4 font-medium font-inter text-base duration-300 ease-in-out w-full`}>
                   <RiHome2Line className="text-2xl"/>
                   Dashboard
                 </NavLink>
@@ -115,16 +115,16 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
               {/* <!-- Menu Item Calendar --> */}
 
               {/* <!-- role management--> */}
-            <li className={`flex flex-row gap-4 items-center ${pathname === "/user-management" ? "text-[#4640DE]" : "text-[#7C8493]"}`}>
+            <li className={`flex flex-row gap-4 items-center ${pathname === "/chatollama" ? "text-[#4640DE]" : "text-[#7C8493]"}`}>
               <div className={`${
-                pathname.includes("user-management") 
+                pathname.includes("chatollama") 
                   ? "py-4 border-r-4 border-[#4640DE] text-[#0173B1]" 
                   : "py-4"
               }`}>
               </div>
               <NavLink
-                to="/user-management"
-                className={`group relative flex items-center ${pathname === "/user-management" ? "bg-[#CACEF3] text-[#4640DE]" : "text-[#7C8493]"} gap-2.5 py-2 px-4 font-medium font-inter text-base duration-300 ease-in-out w-full`}>
+                to="/chatollama"
+                className={`group relative flex items-center ${pathname === "/chatollama" ? "bg-[#CACEF3] text-[#4640DE]" : "text-[#7C8493]"} gap-2.5 py-2 px-4 font-medium font-inter text-base duration-300 ease-in-out w-full`}>
                 <HiOutlineChatBubbleBottomCenterText className="text-2xl"/>
                   Chat Ilama
                 </NavLink>

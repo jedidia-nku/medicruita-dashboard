@@ -5,7 +5,7 @@ import InterviewedCard from "../../components/tables/applicationsHistory/Intervi
 import ProfileViewsCard from "../../components/tables/applicationsHistory/ProfileViewsCard";
 import { FileText } from 'lucide-react';
 
-const Overview: React.FC = () => {
+const Dashboard: React.FC = () => {
   return (
     <div className="flex flex-col bg-[#FAFAFB] pt-5 px-4 sm:px-6">
       {/* Greeting Section */}
@@ -106,4 +106,4 @@ const Overview: React.FC = () => {
   );
 };
 
-export default Overview;
+export default Dashboard;
