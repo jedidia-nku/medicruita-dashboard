@@ -27,7 +27,12 @@ const Chatollama : React.FC = () => {
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13"/>
                         </svg>
                     </button>
-                    <input type="text" placeholder="Your message" className="flex-1 bg-transparent focus:outline-none text-gray-100 placeholder-gray-400"/>
+                    <input
+                    type="text"
+                    placeholder="Your message"
+                    className="flex-1 px-2 py-1 bg-transparent focus:outline-none focus:border-blue-400 text-gray-800 placeholder-gray-400"
+                    />
+
                     <button className="p-2 hover:bg-gray-700 rounded-lg text-primary">
                         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/>
