@@ -8,7 +8,7 @@ const DefaultLayout: React.FC<{ children: ReactNode }> = ({ children }) => {
   const location = useLocation();
   const { pathname } = location;
 
-  const excludedRoutes = ["/", "/signup", "/forgot-password", "/reset-password"]; // Add more routes that does not need the header and sidebar
+  const excludedRoutes = ["/",, "/login", "/register", "/forgot-password", "/reset-password"]; // Add more routes that does not need the header and sidebar
   const hideLayout = excludedRoutes.includes(pathname);
 
   return (

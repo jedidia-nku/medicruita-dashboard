@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiRequest = axios.create({
-  baseURL: "https://dashboard-83w2.onrender.com",
+  baseURL: "https://wallmap.onrender.com/api",
   headers: { "Content-Type": "application/json" }
 });
 
